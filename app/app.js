@@ -8,7 +8,7 @@ app.config(function($routeProvider){
 			controller:'homeCtrl',
 		})
 		.otherwise({
-			redirectTo: '/'
+			redirectTo: '/home'
 		})
 
 
